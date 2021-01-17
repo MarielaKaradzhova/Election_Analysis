@@ -1,23 +1,39 @@
 # Election_Analysis
 
-In this project, our final Python script will need to be able to deliver the following information when the script is run: 
+### Project Overview
+A Colorado Board of Elections employee has given me the tasks outlined below with the purpose of completing the election audit of a recent local congressional election.
 
-Total number of votes cast
-A complete list of candidates who received votes
-Total number of votes each candidate received
-Percentage of votes each candidate won
-The winner of the election based on popular vote
 
-Pseudo Code
-#The data we need to retrieve.
-#1.Total number of votes cast.
-    369,711
-#2.A complete list of candidates who received votes.
-    ['Charles Casper Stockham', 'Diana DeGette', 'Raymon Anthony Doane']
-#3.Total number of votes each candidate received.
-    {'Charles Casper Stockham': 85213, 'Diana DeGette': 272892, 'Raymon Anthony Doane': 11606}
-#4.Percentage of votes each candidate won.
-    Charles Casper Stockham: received 23.04854332167558% of the vote.
-    Diana DeGette: received 73.81224794501652% of the vote.
-    Raymon Anthony Doane: received 3.1392087333079077% of the vote.
-#5The winner of the election based on popular vote.
+1. Calculate the total number of votes cast.
+2. Get a complete list of candidates who received votes.
+3. Calculate the total number of votes each candidate received.
+4. Calculate the percentage of votes each candidate won.
+5. Determine the winner of the election based on popular vote.
+
+### Resources
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code, 1.52.1
+
+###Summary
+The analysis of the election show that:
+- There were 369,711 votes cast in the election.
+- The candidates were:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- The candidate results were:
+    - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+- The winner of the election was:
+    - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+
+###Challenge Overview
+After submitting the election audit results to the election commission, the employee requested some additional data to complete the audit. 
+
+#Additional Data Request:
+1.Calculate the voter turnout for each county.
+2.Calculate the percentage of votes from each county out of the total count.
+3.Determine the county with the highest turnout.
+
+##Challenge Summary
