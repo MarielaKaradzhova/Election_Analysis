@@ -85,7 +85,7 @@ The winner of the election was Diane Degette, who won the election with 272,892,
 ### Election Audit Results
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
-####Summary Statement 
+#### Summary Statement 
 The code used to analyze the results of the local congressional election can be used with other election results using simple modifications of variables to yield the results needed to complete an election audit. 
 
 For example, simply accessing a different data source in the code can set up the analysis for another election. See the image below:
