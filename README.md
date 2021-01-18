@@ -89,5 +89,16 @@ In a summary statement, provide a business proposal to the election commission o
 The code used to analyze the results of the local congressional election can be used with other election results using simple modifications of variables to yield the results needed to complete an election audit. 
 
 For example, simply accessing a different data source in the code can set up the analysis for another election. See the image below:
-![](https://github.com/MarielaKaradzhova/stock-analysis/blob/main/All_Stocks_2017.png) | ![](https://github.com/MarielaKaradzhova/stock-analysis/blob/main/All_Stocks_2018.png)
+![](https://github.com/MarielaKaradzhova/Election_Analysis/blob/main/Resources/path_modification.png) 
+
+Specifically, instead of accessing the "election_results.csv", another file can be accessed to easily answer the same questions we did with the local congressional election (See: Summary and Challenge Summary).
+
+If there were other questions that needed analyzing, then we can simply modify variable names to determine the answers we are trying to find. See sample from code below before further explanation.
+
+![](https://github.com/MarielaKaradzhova/Election_Analysis/blob/main/Resources/modifications_variables.png) 
+
+In this image we can see that a list  "county_options", was created to store all the county names available from the data source. In another election this variable can be modified to fit the description of the location where ballots were collected. For example, there may be a provincial election that includes States or Provinces. Therefore, we would modify the variable as "province_options" or, "state_options" to yield the results we are looking for and organize them in a list to further analyze.
+
+These simple yet powerful modifications make our code incredibly useful and versatile, while providing a solid foundation and code structure that can yield accurate results with minimal errors when executed.
+
 
